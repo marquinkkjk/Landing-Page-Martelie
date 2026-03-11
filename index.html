@@ -13,92 +13,95 @@
             <a href="#produtos"> Produtos </a>
             <a href="#clientes"> Clientes </a>
             <a href="#contato"> Entre em contato </a>
-        </nav>       
+        </nav>         
         <h1>PRATICIDADE,<br>
             ESTILO, <br>
             SUSTENTABILIDADE
         </h1>
-    <figure>
-        <img src="img/marta.png" 
-        alt="Marta, senhora de idade de aproximadamente 50 anos, com um novelo de lã em mãos">
-    </figure>
+        <figure>
+            <img src="img/marta.png" alt="Marta, senhora de idade de aproximadamente 50 anos, com um novelo de lã em mãos">
+        </figure>
     </header>
 
     <section id="sobre-mim">
-        <h1>Prazer, Marta 👋</h1>
-        <figure>
-            <img src="img/marta-atelie.png"
-            alt="Marta, senhora de idade de aproximadamente 50 anos em seu atelie">
-        </figure>
-        <p>
-            Tenho 52 anos e trabalho no mercado de artesanato há mais de 10, sempre com muito amor e dedicação.
-            Meu atêlie está localizado em Porto Alegre mas atendo todo o Brasil via entregas.
-            Produzo diversos utensílios, desde peças casuais até bolsas e necessaires estilosas e sustentáveis.
-            Quer saber mais? Veja alguns dos meus produtos e entre em contato
-        </p>
+        <div> 
+            <h2>Prazer, Marta 👋</h2>
+            <figure>
+                <img src="img/marta-atelie.png" alt="Marta, senhora de idade de aproximadamente 50 anos em seu atelie">
+            </figure>
+            <p>
+                Tenho 52 anos e trabalho no mercado de artesanato há mais de 10, sempre com muito amor e dedicação. 
+                Meu atêlie está localizado em Porto Alegre mas atendo todo o Brasil via entregas. 
+                Produzo diversos utensílios, desde peças casuais até bolsas e necessaires estilosas e sustentáveis. 
+                Quer saber mais? Veja alguns dos meus produtos e entre em contato.
+            </p>
+        </div>
     </section>
 
     <section id="produtos">
-        <h1>Destaque de Vendas</h1>
-        <div>
-            <figure>
-                <p>Pelúcias</p>
-                <img src="img/amigurumi.jpg" alt="Amigurami (pelúcia) de cachorro branco">
-            </figure>
-        </div>
-        <div>
-            <figure>
-                <p>Agasalhos</p>
-                <img src="img/sueter.png" alt="sueter de lã marrom, verde e branco, com algumas listras">
-            </figure>
-        </div>
-        <div>
-            <figure>
-                <p>Tapetes</p>
-                <img src="img/tapete.png" alt="tapete branco">
-            </figure>
+        <h2>Destaque de Vendas</h2>
+        <div class="container-produtos"> 
+            <div>
+                <figure>
+                    <p>Pelúcias</p>
+                    <img src="img/amigurumi.jpg" alt="Amigurami (pelúcia) de cachorro branco">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <p>Agasalhos</p>
+                    <img src="img/sueter.png" alt="sueter de lã marrom, verde e branco, com algumas listras">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <p>Tapetes</p>
+                    <img src="img/tapete.png" alt="tapete branco">
+                </figure>
+            </div>
         </div>
     </section>
 
     <section id="clientes">
-        <h1>Clientes</h1>
-        <div>
-           <p>Atendimento perfeito!</p>
-           <img src="img/5 estrelas.png" alt="5 estrelas enfileiradas">
-           <figure>
-            <img src="img/cliente_1.png" alt="cachorro de pequeno porte com a lingua pra fora">
-           </figure>
-        </div>
-        <div>
-           <p>Acabamento super detalhado, superou todas as minhas expectativas!</p>
-           <img src="img/5 estrelas.png" alt="5 estrelas enfileiradas">
-           <figure>
-            <img src="img/cliente_2.png" alt="senhora de idade negra, com cabelo branco sorrindo">
-           </figure>
-        </div>
-           <p>Feito com muito capricho, adorei!</p>
-           <img src="img/5 estrelas.png" alt="5 estrelas enfileiradas">
-           <figure>
-            <img src="img/cliente_3.png" alt="imagem de usuério desconhecido">
-           </figure>
-        <div>
+        <h2>Clientes</h2>
+        <div class="container-depoimentos">
+            <div class="card-cliente">
+               <p>Atendimento perfeito!</p>
+               <img src="img/5 estrelas.png" alt="5 estrelas enfileiradas">
+               <figure>
+                <img src="img/cliente_1.png" alt="cachorro de pequeno porte com a lingua pra fora">
+               </figure>
+            </div>
 
+            <div class="card-cliente">
+               <p>Acabamento super detalhado, superou todas as minhas expectativas!</p>
+               <img src="img/5 estrelas.png" alt="5 estrelas enfileiradas">
+               <figure>
+                <img src="img/cliente_2.png" alt="senhora de idade negra, com cabelo branco sorrindo">
+               </figure>
+            </div>
+
+            <div class="card-cliente">
+               <p>Feito com muito capricho, adorei!</p>
+               <img src="img/5 estrelas.png" alt="5 estrelas enfileiradas">
+               <figure>
+                <img src="img/cliente_3.png" alt="imagem de usuério desconhecido">
+               </figure>
+            </div>
         </div>
     </section>
 
     <section id="contato">
         <h1>Tem Interesse?</h1>
         <div>
-        <form action="#">
-        <input id="nome" type="text" placeholder="Nome completo">
-
-        <input id="telefone" type="number" placeholder="Telefone(DDD+Número)">
-
-        <input id="email" type="email" placeholder="E-mail">
-        </form>
+            <form action="#">
+                <input id="nome" type="text" placeholder="Nome completo">
+                <input id="telefone" type="number" placeholder="Telefone(DDD+Número)">
+                <input id="email" type="email" placeholder="E-mail">
+            </form>
         </div>
     </section>
     
-    <script src="main.js"></Script>
+    <script src="main.js"></script>
 </body>
 </html>
