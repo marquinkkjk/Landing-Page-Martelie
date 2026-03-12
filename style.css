@@ -60,22 +60,28 @@ header figure img {
     width: 950px;
     height: auto;
 }
+ /* Apresentação da Marta   */
 
 #sobre-mim h2 {
     color:#dec8b7;
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
+    
 
 }
 #sobre-mim figure img {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     right: 500px;
     border-radius: 50%;
     object-fit: cover;
 }
 
+/* Fechamento da apresentação  */
+
+/* Produtos  */
+
 #cachorro {
-    width: 700px;
+    width: 900px;
     height: 700px;
 }
