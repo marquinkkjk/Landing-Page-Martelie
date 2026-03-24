@@ -2,13 +2,22 @@
 <html lang="pt-br" class="light">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexia Paré, Marcos Dias, Kauan Duarte, Pedro Henrique Brites">
+    <meta name="description" content="Martelie - Artesanato sustentável e acessórios exclusivos feitos à mão por Marta. Praticidade e estilo em Porto Alegre.">
+    <meta name="keywords" content="artesanato, marta, martelie, sustentabilidade, crochê, feito à mão, porto alegre">
+
+    <link rel="stylesheet" href="style.css">
     <title>Martelie</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+     <div class="barra-acessibilidade">
+    <button id="ouvir" title="Ouvir Texto">Ouvir Site 🔊</button>
+</div>
     <header class="opções">
         <nav class="menu">
             <a href="#sobre-mim"> Sobre mim </a>
@@ -118,11 +127,19 @@
         <h1>Tem Interesse?</h1>
         <div>
             <form action="#">
-                <input id="nome" type="text" placeholder="Nome completo" required >
-                <input id="telefone" type="tel" placeholder="Telefone(DDD+Número)" required>
-                <input id="email" type="email" placeholder="E-mail" required>
-                <button>Enviar</button>
+               <label for="nome">Nome Completo</label>
+                <input id="nome" type="text" placeholder="Digite seu nome completo" required>
+                <label for="telefone">Telefone (DDD + Número)</label>
+                <input id="telefone" type="tel" placeholder="(51) 99999-0000" required>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="seuemail@exemplo.com" required>
+
+<button type="submit">Enviar Mensagem</button>
             </form>
+            <div id="mensagemSucesso" style="display: none;">
+                <h2>Seu contato foi enviado para Marta!</h2>
+                <p>Aguarde o contato nos próximos dias.🧶</p>
+            </div>
         </div>
     </section>
 
